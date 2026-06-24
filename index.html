@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Milho | Blog de Cultivo e Manejo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌽 Portal do Milho</h1>
+        <p>O seu guia completo de cultivo, manejo técnico e alta produtividade</p>
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+            
+            <article class="post-card">
+                <div class="post-thumb" style="background-color: #fffde7;">🌱</div>
+                <div class="post-body">
+                    <h2>Como Escolher a Semente de Milho Ideal</h2>
+                    <p>A escolha do híbrido ou variedade correta é o primeiro passo para o sucesso da lavoura. Aprenda a avaliar o clima e o solo da sua região para garantir alta germinação.</p>
+                    <a href="#" class="read-more">Ler Artigo</a>
+                </div>
+            </article>
+
+            <article class="post-card">
+                <div class="post-thumb" style="background-color: #efebe9;">🚜</div>
+                <div class="post-body">
+                    <h2>Manejo de Solo e Adubação</h2>
+                    <p>O milho é uma planta exigente em nutrientes. Descubra a quantidade ideal de Nitrogênio, Fósforo e Potássio (NPK) para maximizar o enchimento das espigas.</p>
+                    <a href="#" class="read-more">Ler Artigo</a>
+                </div>
+            </article>
+
+            <article class="post-card">
+                <div class="post-thumb" style="background-color: #e8f5e9;">🐛</div>
+                <div class="post-body">
+                    <h2>Controle de Pragas e Doenças</h2>
+                    <p>Dicas práticas e monitoramento integrado para identificar ataques de lagartas (como a do cartucho) e da cigarrinha a tempo, protegendo o seu bolso.</p>
+                    <a href="#" class="read-more">Ler Artigo</a>
+                </div>
+            </article>
+
+            <article class="post-card">
+                <div class="post-thumb" style="background-color: #e3f2fd;">💧</div>
+                <div class="post-body">
+                    <h2>Irrigação e Necessidade Hídrica</h2>
+                    <p>Entenda as fases críticas em que a falta de água pode arruinar a produtividade do milharal, especialmente durante o pendoamento e a polinização.</p>
+                    <a href="#" class="read-more">Ler Artigo</a>
+                </div>
+            </article>
+
+        </main>
+
+        <aside class="sidebar">
+            <h3>Sobre o Blog</h3>
+            <p>Espaço dedicado a produtores, estudantes e entusiastas do agro que buscam melhorar o manejo da cultura do milho, do plantio à colheita.</p>
+            
+            <h3>Simulador de Plantio</h3>
+            <p>Quantos hectares (ha) vai plantar?</p>
+            <input type="number" id="hectares" placeholder="Ex: 5" style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            <button onclick="calcularSementes()" style="background-color: #2e7d32; color: white; border: none; padding: 10px; cursor: pointer; border-radius: 4px; font-weight: bold; width: 100%;">Calcular Sementes</button>
+            <p id="resultado-calculo" style="margin-top: 15px; font-size: 0.9rem; font-style: italic; line-height: 1.4;"></p>
+
+            <h3>Links Úteis</h3>
+            <ul>
+                <li><a href="#">📋 Tabela de Calagem</a></li>
+                <li><a href="#">📅 Calendário de Plantio</a></li>
+                <li><a href="#">📈 Cotação do Milho Hoje</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Portal do Milho - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
